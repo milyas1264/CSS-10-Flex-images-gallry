@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#main{
+    width: 95%;
+    height: 600px;
+    border: 1px solid red;
+    background-color: aquamarine;
+   margin: auto;
+   margin-top: 20px;
+   
+}
+header{
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+    background-color: antiquewhite;
+    border-radius: 10px 10px 0 0;
+}
+
+#top{
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#circles{
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+    
+}
+#circles>div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+    
+}
+.circle1{
+    background-color: red;
+}
+.circle2{
+    background-color: yellow;
+}
+.circle3{
+    background-color: greenyellow;
+}
+input{
+    width: 500px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 100%;
+}
+.fa-magnifying-glass{
+    position: relative;
+    left: -610px;
+    top: 2px;
+   
+    
+    
+}
+
+.fa-rotate-left{
+    position: relative;
+    left: -830px;
+    top: 2px;
+}
+#meg2{
+    position: relative;
+    left: -60px;
+    top: 2px;
+}
+#nav{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#camera{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#link{
+    width: 600px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+
+
+#icons{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
